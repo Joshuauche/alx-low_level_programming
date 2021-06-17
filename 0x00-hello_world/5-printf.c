@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdioi.h>
 
 /**
  * main - prints the string using printf function
