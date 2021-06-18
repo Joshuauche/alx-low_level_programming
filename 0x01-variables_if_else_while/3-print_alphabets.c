@@ -12,9 +12,10 @@ int main(void)
 	while (x <= 'z' && y <= 'Z')
 	{
 		putchar(x);
+		x++;
+
 		putchar(y);
 
-		x++;
 		y++;
 	}
 	putchar('\n');
