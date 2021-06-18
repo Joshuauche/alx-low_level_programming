@@ -19,7 +19,7 @@ int main(void)
 	{
 		putchar(y);
 
-		y++
+		y++;
 	}
 	putchar('\n');
 
