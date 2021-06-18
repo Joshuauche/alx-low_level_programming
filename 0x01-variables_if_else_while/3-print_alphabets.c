@@ -15,7 +15,7 @@ int main(void)
 		putchar(y);
 
 		x++;
-		y++
+		y++;
 	}
 	putchar('\n');
 
