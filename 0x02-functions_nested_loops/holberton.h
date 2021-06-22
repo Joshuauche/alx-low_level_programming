@@ -22,6 +22,8 @@ int _abs(int);
 /*print last digit*/
 int print_last_digit(int);
 
+/*Jack Baur*/
+void jack_bauer(void);
 
 
 
