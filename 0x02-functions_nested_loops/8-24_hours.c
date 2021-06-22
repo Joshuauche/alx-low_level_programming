@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * void jack_bauer - prints jack bauer timiing
- *  
+ * jack_bauer - prints jack bauer timiing
+ *
  * Description: prints minutes from 00:00 to 23:59
  */
 void jack_bauer(void)
