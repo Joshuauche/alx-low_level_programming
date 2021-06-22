@@ -4,7 +4,7 @@
 /**
  * print_last_digit - this prints the last digit of a number
  * @r: only operand
- * Return: o when successfull executed
+ * Return: last digit of number
  */
 int print_last_digit(int r)
 {
@@ -13,6 +13,6 @@ int print_last_digit(int r)
 		r *= -1;
 	}
 	_putchar('0' + (n % 10);
-	return (n % 19);
+	return (n % 10);
 }
 
