@@ -7,7 +7,7 @@
  */
 int print_sign(int n)
 {
-	if (n >= 49 && n <= 57)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
