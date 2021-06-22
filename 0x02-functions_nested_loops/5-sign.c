@@ -1,13 +1,13 @@
 #include "holberton.h"
 
 /**
- * print_sign - prints +1, 0, -1
+ * print_sign - prints +1 or 0 or -1
  * @n: only operand
  * Return: 1 as positive, 0 as zero and -1 as negative
  */
 int print_sign(int n)
 {
-	if (n > 0)
+	if (n >= 49 && n <= 57)
 	{
 		_putchar('+');
 		return (1);
