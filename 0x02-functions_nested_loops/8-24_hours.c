@@ -24,7 +24,7 @@ void jack_bauer(void)
 			_putchar('0' + (minute % 64));
 			_putchar('\n');
 
-			min++;
+			minute++;
 		}
 		minute = 0;
 		hour++;
