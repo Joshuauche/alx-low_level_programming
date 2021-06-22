@@ -16,6 +16,9 @@ int _islower(int c);
 /*isalpha*/
 int print_sign(int n);
 
+/*absolute value*/
+int _abs(int);
+
 
 
 
