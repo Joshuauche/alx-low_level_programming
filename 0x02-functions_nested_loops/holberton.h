@@ -19,6 +19,9 @@ int print_sign(int n);
 /*absolute value*/
 int _abs(int);
 
+/*print last digit*/
+int print_last_digit(int);
+
 
 
 
