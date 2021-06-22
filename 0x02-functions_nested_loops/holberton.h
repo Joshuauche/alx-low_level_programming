@@ -10,6 +10,9 @@ void print_alphabet(void);
 /*10x alphabet*/
 void print_alphabet_x10(void);
 
+/*islower*/
+int _islower(int c);
+
 
 
 
