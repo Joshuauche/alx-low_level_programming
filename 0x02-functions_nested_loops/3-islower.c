@@ -11,11 +11,15 @@
 
 int _islower(int c)
 {
-	int i;
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 
-	i = c;
-	i = _islower(c);
-	_putchar(r + '0');
-	_putchar('\n');
-
+	return c;
 }
+
