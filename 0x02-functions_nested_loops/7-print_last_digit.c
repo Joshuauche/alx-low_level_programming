@@ -11,7 +11,7 @@ int _abs(int c)
 {
 	if (c >= 0)
 	{
-		return (n);
+		return (c);
 	}
 	else
 	{
@@ -31,7 +31,7 @@ int print_last_digit(int r)
 {
 	int lastDigit;
 
-	lastDigit = _abs((r % 10))
+	lastDigit = _abs((r % 10));
 	_putchar('0' + lastDigit);
 
 	return (lastDigit);
