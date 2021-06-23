@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 /*multiple mains*/
-void postitive_or_negative(int i);
+int main(void);
 
 
 
