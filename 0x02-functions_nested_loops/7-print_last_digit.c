@@ -2,18 +2,38 @@
 
 
 /**
+ *_abs - prints the absolute value
+ *@c: only parameter
+ *Return: positive absolute value
+ */
+
+int _abs(int c)
+{
+	if (c >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return (-1 * c);
+	}
+}
+
+
+
+
+/**
  * print_last_digit - this prints the last digit of a number
  * @r: only operand
  * Return: last digit of number
  */
 int print_last_digit(int r)
 {
-	if (r < 0)
-	{
-		r *= -1;
-	}
-	_putchar('0' + (r % 10));
+	int lastDigit;
 
-	return (r % 10);
+	lastDigit = _abs((r % 10))
+	_putchar('0' + lastDigit);
+
+	return (lastDigit);
 }
 
