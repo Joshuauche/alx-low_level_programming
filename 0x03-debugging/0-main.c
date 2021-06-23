@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * main - prints positve or nagetive function
  *
