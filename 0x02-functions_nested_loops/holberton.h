@@ -31,6 +31,9 @@ void times_table(void);
 /*print addition of two numbers*/
 int add(int, int);
 
+/**prints number from n to 98*/
+void print_to_98(int n);
+
 
 
 
