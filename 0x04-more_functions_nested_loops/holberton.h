@@ -13,6 +13,9 @@ int mul(int a, int b);
 /*print numbers*/
 void print_numbers(void);
 
+/*print most numbers*/
+void print_most_numbers(void);
+
 
 
 
