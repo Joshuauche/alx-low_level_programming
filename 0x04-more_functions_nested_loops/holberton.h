@@ -4,6 +4,9 @@
 /*isuper*/
 int _isupper(int c);
 
+/*is digit*/
+int _isdigit(int c);
+
 
 
 
