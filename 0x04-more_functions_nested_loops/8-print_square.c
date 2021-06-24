@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints number of squares with #
- * @size - only parameter
+ * @size: only parameter
  */
 void print_square(int size)
 {
