@@ -7,6 +7,8 @@ int _isupper(int c);
 /*is digit*/
 int _isdigit(int c);
 
+/*multiplication*/
+int mul(int a, int b);
 
 
 
