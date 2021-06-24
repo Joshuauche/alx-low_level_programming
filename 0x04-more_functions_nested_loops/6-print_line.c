@@ -1,6 +1,10 @@
 #include "holberton.h"
 
-
+/**
+ * print_line - prints _ according to n number
+ * @n: only parameter
+ * Return: (0) successful
+ */
 void print_line(int n)
 {
 	char i;
