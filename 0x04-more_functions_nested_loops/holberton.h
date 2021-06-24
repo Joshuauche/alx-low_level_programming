@@ -10,6 +10,9 @@ int _isdigit(int c);
 /*multiplication*/
 int mul(int a, int b);
 
+/*print numbers*/
+void print_numbers(void);
+
 
 
 
