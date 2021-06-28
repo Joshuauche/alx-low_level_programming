@@ -32,4 +32,7 @@ void puts_half(char *str);
 /*8 printing n number of an array*/
 void print_array(int *a, int n);
 
+/*9 strcpy*/
+char *_strcpy(char *dest, char *src);
+
 #endif
