@@ -6,13 +6,16 @@
  * _strcpy - copies the string to another string variable
  * @dest: first parameter
  * @src: second parameter
- * Return: a string copy when executed
+ * Return: a string copy when execute
  */
 char *_strcpy(char *dest, char *src)
 {
 	int length, i
 
-	length = strlen(src);
+	while (src[length] != '\0')
+	{
+		length++;
+	}
 
 	for (i = 0; i < length; i++)
 	{
