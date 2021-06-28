@@ -23,6 +23,9 @@ void print_rev(char *s);
 /*5 reverse string*/
 void rev_string(char *s);
 
+/*6 print certain numbers*/
+void puts2(char *str);
+
 
 
 #endif
