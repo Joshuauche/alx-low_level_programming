@@ -29,4 +29,7 @@ void puts2(char *str);
 /*7 print half*/
 void puts_half(char *str);
 
+/*8 printing n number of an array*/
+void print_array(int *a, int n);
+
 #endif
