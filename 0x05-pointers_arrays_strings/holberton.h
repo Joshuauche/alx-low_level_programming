@@ -35,4 +35,5 @@ void print_array(int *a, int n);
 /*9 strcpy*/
 char *_strcpy(char *dest, char *src);
 
+
 #endif
