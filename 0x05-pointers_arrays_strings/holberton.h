@@ -17,6 +17,12 @@ int _strlen(char *s);
 /*3 print stdout*/
 void _puts(char *str);
 
+/*4 print reverse*/
+void print_rev(char *s);
+
+/*5 reverse string*/
+void rev_string(char *s);
+
 
 
 #endif
