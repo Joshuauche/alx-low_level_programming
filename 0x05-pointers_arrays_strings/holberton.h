@@ -26,6 +26,7 @@ void rev_string(char *s);
 /*6 print certain numbers*/
 void puts2(char *str);
 
-
+/*7 print half*/
+void puts_half(char *str);
 
 #endif
