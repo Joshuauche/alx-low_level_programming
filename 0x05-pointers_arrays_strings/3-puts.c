@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  * _puts - prints the char string to stdout
  * @str: only parameter
