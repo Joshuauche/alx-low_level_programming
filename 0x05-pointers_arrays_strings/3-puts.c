@@ -7,6 +7,6 @@
 void _puts(char *str)
 {
 	fputs(str, stdout);
-	puts("\n");
+	fputs("\n", stdout);
 }
 
