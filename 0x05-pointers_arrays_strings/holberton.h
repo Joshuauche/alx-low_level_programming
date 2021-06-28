@@ -14,6 +14,9 @@ void swap_int(int *a, int *b);
 /*2 string length*/
 int _strlen(char *s);
 
+/*3 print stdout*/
+void _puts(char *str);
+
 
 
 #endif
