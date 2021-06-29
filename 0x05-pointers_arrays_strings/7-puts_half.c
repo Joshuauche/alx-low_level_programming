@@ -12,16 +12,10 @@ void puts_half(char *str)
 	int mid, i, k;
 
 	length = strlen(str);
-	mid = length / 2;
 
+	((length % 2 == 0) ? (mid = length / 2) : (mid = (length + 1) / 2));
 	for (i = mid, k = 0; i < length; i++, k++)
 	{
-		if (length[str] % 2 == 1)
-		{
-			mid = (length + 1) / 2;
-
-			_putchar(righthalf);
-		}
 		righthalf = str[i];
 		_putchar(righthalf);
 	}
