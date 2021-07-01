@@ -2,14 +2,14 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _strcpy - copy string with an integer
+ * _strncpy - copy string with an integer
  * @dest: destination string
  * @src: source string
- * Return: pointer when executed 
+ * @n: size parameter
+ * Return: pointer when executed
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *pointer = dest;
 
 	if (dest == NULL)
 	{
