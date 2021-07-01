@@ -10,9 +10,10 @@ char *leet(char *s)
 {
 	int i, j, length;
 
+	length = strlen(a);
+
 	char *a = "aAeEoOtTlL";
 	char *b = "4433007711";
-	length = strlen(a);
 
 	for (i = 0;  s[i] != '\0'; i++)
 	{
