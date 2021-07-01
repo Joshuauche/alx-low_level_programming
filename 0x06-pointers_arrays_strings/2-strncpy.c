@@ -7,7 +7,7 @@
  * @src: source string
  * Return: pointer when executed 
  */
-har *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	char *pointer = dest;
 
