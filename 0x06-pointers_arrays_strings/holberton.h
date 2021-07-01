@@ -24,6 +24,9 @@ char *string_toupper(char *a);
 /*6 converts each first string to uppercase*/
 char *cap_string(char *s);
 
+/*7 encode a strings*/
+char *leet(char *);
+
 
 
 
