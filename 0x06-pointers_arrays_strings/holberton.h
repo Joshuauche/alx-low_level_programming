@@ -30,6 +30,9 @@ char *leet(char *s);
 /*encide a string using rot13*/
 char *rot13(char *);
 
+/*101 prints an integer*/
+void print_number(int n);
+
 
 
 
