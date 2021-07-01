@@ -27,6 +27,9 @@ char *cap_string(char *s);
 /*7 encode a strings*/
 char *leet(char *s);
 
+/*encide a string using rot13*/
+char *rot13(char *);
+
 
 
 
