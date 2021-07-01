@@ -7,17 +7,38 @@
  * @s: string parameter
  * Return: capitalize string
  */
-char *cap_string(char *s)
+ar *cap_string(char *s)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; i < strlen(s); i++)
+	char spe[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if ((i == 0 || s[i - 1] == ' ' || s[i - 1] == ',' || s[i - 1] == '}' || s[i - 1] == '{' || s[i - 1] == ';' || s[i - 1] == '(' || s[i - 1] == ')' || s[i - 1] == '"' || s[i - 1] == '\t' || s[i - 1] == '\n' || s[i - 1] == '.' || s[i - 1] == '!') && (s[i] >= 'a' && s[i] <= 'z'))
+
+		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
 		{
-			s[i] = s[i] - ('a' - 'A');
+			s[i] -= 32;
+
+		
+			for (j = 0; j < 13; j++)
+			{
+				if (s[i] == spe[j])
+				{
+					if (s[i - 1] >= 'a' && s[i - 1] <= 'z')
+					{
+						s[i - 1] -= 32;
+					}
+
+				}
+
+			}
+
 		}
+
 	}
 	return (s);
+
+
 }
 
