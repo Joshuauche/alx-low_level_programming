@@ -25,7 +25,7 @@ char *string_toupper(char *a);
 char *cap_string(char *s);
 
 /*7 encode a strings*/
-char *leet(char *);
+char *leet(char *s);
 
 
 
