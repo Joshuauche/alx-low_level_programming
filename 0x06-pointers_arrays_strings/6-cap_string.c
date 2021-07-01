@@ -7,7 +7,7 @@
  * @s: string parameter
  * Return: capitalize string
  */
-ar *cap_string(char *s)
+char *cap_string(char *s)
 {
 	int i, j;
 
