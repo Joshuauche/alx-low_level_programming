@@ -24,6 +24,9 @@ char *_strstr(char *haystack, char *needle);
 /*6 chess board*/
 void print_chessboard(char (*a)[8]);
 
+/*7 prints the diagonal of a square matrix*/
+void print_diagsums(int *a, int size);
+
 
 
 
