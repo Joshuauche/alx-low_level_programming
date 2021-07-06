@@ -27,6 +27,10 @@ void print_chessboard(char (*a)[8]);
 /*7 prints the diagonal of a square matrix*/
 void print_diagsums(int *a, int size);
 
+/*101 sets the value of a pointer to a char*/
+void set_string(char **s, char *to);
+
+
 
 
 
