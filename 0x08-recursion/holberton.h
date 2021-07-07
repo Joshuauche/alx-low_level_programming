@@ -26,6 +26,9 @@ int check_squareroot(int n, int i);
 int is_prime_number(int n);
 int checked_prime(int n, int i);
 
+/*100 ispalindrome*/
+int is_palindrome(char *s);
+
 
 
 
