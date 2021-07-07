@@ -18,6 +18,10 @@ int factorial(int n);
 /*4 prints the raised to the power of a number*/
 int _pow_recursion(int x, int y);
 
+/*5 natural squareroot of a number*/
+int _sqrt_recursion(int n);
+int check_squareroot(int n, int i);
+
 
 
 
