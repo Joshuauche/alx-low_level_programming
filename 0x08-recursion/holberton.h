@@ -28,6 +28,8 @@ int checked_prime(int n, int i);
 
 /*100 ispalindrome*/
 int is_palindrome(char *s);
+int check_pal(char *s, int i, int length);
+int strlen(char *s);
 
 
 
