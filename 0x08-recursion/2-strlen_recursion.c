@@ -1,5 +1,9 @@
 #include "holberton.h"
-
+/**
+ * _strlen_recursion -prints the lenth of strings
+ * @s: string parameter
+ * Return: the length in mumber
+ */
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
