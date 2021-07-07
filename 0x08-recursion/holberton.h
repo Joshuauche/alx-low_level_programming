@@ -29,7 +29,10 @@ int checked_prime(int n, int i);
 /*100 ispalindrome*/
 int is_palindrome(char *s);
 int check_pal(char *s, int i, int length);
-int strlen(char *s);
+int strlen_recursion(char *s);
+
+/*101 compare two strings*/
+int wildcmp(char *s1, char *s2);
 
 
 
