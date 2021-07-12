@@ -10,30 +10,38 @@
  *
  * Return: prints the sum of all arguments
  */
-int main(int argc, char *argv[])
+nt main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i;
+	unsigned int k, sum = 0;
+	char *e;
 
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (*argv[i] < 48 || *argv[i] > 57)
+			e = argv[i];
+
+			for (k = 0; k < strlen(e); k++)
 			{
-				printf("Error\n");
-				return (1);
+				if (e[k] < 48 || e[k] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
 			}
-			else
-			{
-				sum = sum + atoi(argv[i]);
-			}
+
+			sum += atoi(e);
+			e++;
 		}
+
 		printf("%d\n", sum);
 	}
 	else
 	{
 		printf("0\n");
 	}
+
 	return (0);
 }
 
