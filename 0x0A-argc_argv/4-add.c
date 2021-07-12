@@ -20,11 +20,13 @@ int main(int argc, char *argv[])
 		{
 			if (*argv[i] >= 48 && *argv[i] <= 57)
 			{
-				sum = sum + atoi(argv[i]);
+				printf("Error\n");
+				return (1);
 			}
 			else
 			{
 				printf("Error\n");
+				sum = sum + atoi(argv[i]);
 				return (1);
 			}
 		}
