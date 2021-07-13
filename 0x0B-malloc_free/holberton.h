@@ -9,6 +9,9 @@ char *create_array(unsigned int size, char c);
 /*1. returns a pointer to a new allocated mememory*/
 char *_strdup(char *str);
 
+/*2. concatenates two strings*/
+char *str_concat(char *s1, char *s2);
+
 
 
 
