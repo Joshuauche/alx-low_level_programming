@@ -12,6 +12,9 @@ char *_strdup(char *str);
 /*2. concatenates two strings*/
 char *str_concat(char *s1, char *s2);
 
+/*3 two dimensional array*/
+int **alloc_grid(int width, int height);
+
 
 
 
