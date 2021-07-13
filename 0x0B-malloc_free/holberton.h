@@ -15,6 +15,9 @@ char *str_concat(char *s1, char *s2);
 /*3 two dimensional array*/
 int **alloc_grid(int width, int height);
 
+/*4 frees 2 dimensional grid memory*/
+void free_grid(int **grid, int height);
+
 
 
 
