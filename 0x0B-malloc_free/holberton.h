@@ -21,9 +21,8 @@ void free_grid(int **grid, int height);
 /*5 concatenate string array*/
 char *argstostr(int ac, char **av);
 
-
-
-
+/*6 splits a string into words*/
+char **strtow(char *str);
 
 
 #endif
