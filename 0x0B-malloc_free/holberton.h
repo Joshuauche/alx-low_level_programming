@@ -18,6 +18,9 @@ int **alloc_grid(int width, int height);
 /*4 frees 2 dimensional grid memory*/
 void free_grid(int **grid, int height);
 
+/*5 concatenate string array*/
+char *argstostr(int ac, char **av);
+
 
 
 
