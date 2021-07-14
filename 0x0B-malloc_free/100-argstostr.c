@@ -49,6 +49,7 @@ char *argstostr(int ac, char **av)
 		for (j = 0; j < _strlen(av[i]); j++)
 		{
 			str[k] = av[i][j];
+			k++;
 		}
 		str[k] = '\n';
 	}
