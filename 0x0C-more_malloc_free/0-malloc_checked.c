@@ -1,9 +1,20 @@
 #include "holberton.h"
-
-void_checked(unsigned int b)
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * malloc_checked - allocates space
+ * @b: int parameter
+ */
+void *malloc_checked(unsigned int b)
 {
-	unsigned int *ptr;
+	int *ptr;
 
-	ptr = malloc(sizeof(b));
+	ptr = (int *)malloc(sizeof(int) * b);
+
+	if (ptr == NULL)
+	{
+		exit(98);
+	}
+	return (ptr);
 }
 
