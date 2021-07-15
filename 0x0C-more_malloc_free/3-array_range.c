@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * array_range - ccreates an array of integers
+ * array_range - creates an array of integers
  * @min: min size parameter
  * @max: max size parameter
  *
@@ -18,7 +18,7 @@ int *array_range(int min, int max)
 
 	size = max - min + 1;
 
-	array = (int *)malloc(sizeof(int) * size);
+	array = malloc(sizeof(int) * size);
 
 	if (array == NULL)
 		return (NULL);
