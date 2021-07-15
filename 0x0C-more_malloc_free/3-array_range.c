@@ -3,28 +3,31 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - ccreates an array of integers
- * @buffer: buffer parameter
- * @size: size parameter
+ * array_range - ccreates an array of integers
+ * @min: min size parameter
+ * @max: max size parameter
+ *
+ * Return: the array pointer
  */
-void simple_print_buffer(int *buffer, unsigned int size)
+int *array_range(int min, int max)
 {
-	unsigned int i;
+	int *array, i, size;
 
-	i = 0;
-	while (i < size)
+	if (min > max)
+		return (NULL);
+
+	size = max - min + 1;
+
+	array = (int *)malloc(sizeof(int) * size);
+
+	if (array == NULL)
+		return (NULL);
+
+	for (i = 0; i < size; i++)
 	{
-		if (i % 10)
-		{
-			printf(" ");
-		}
-		if (!(i % 10) && i)
-		{
-			printf("\n");
-		}
-		printf("0x%02x", buffer[i]);
-		i++;
+		array[i] = m++;
 	}
-	printf("\n");
+
+	return (array);
 }
 
