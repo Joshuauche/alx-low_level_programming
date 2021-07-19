@@ -6,14 +6,7 @@
  */
 int main(void)
 {
-	char *ptr = __FILE__;
-
-	while (*ptr != '\0')
-	{
-		_putchar(*ptr);
-		ptr++;
-	}
-	_putchar('\n');
+	printf("%s", __FILE__);
 
 	return (0);
 }
