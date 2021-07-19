@@ -8,10 +8,6 @@
  */
 void print_dog(struct dog *d)
 {
-	float age = age;
-	char *name = name;
-	char *owner = owner;
-
 	if (d != NULL)
 	{
 		printf("Name: %s \n", (d->name) ? d->name : "(nil)");
