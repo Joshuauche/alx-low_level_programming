@@ -2,6 +2,9 @@
 #include "dog.h"
 #include <stdlib.h>
 
+char *_strcpy(char *dest, char *str);
+
+dog_t *new_dog(char *name, float age, char *owner);
 /**
  * _strlen - return the string length
  * @s: character parameter
