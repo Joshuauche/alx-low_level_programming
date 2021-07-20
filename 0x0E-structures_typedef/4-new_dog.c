@@ -36,16 +36,16 @@ char *_strcpy(char *dest, char *str)
 
 	len = 0;
 
-	while (*(str + len) != '\0')
+	while (str[len] != '\0')
 	{
 		len++;
 	}
 
 	for (i = 0; i < len; i++)
 	{
-		*(dest + i) = *(str + i);
+		dest[i] = str[i];
 	}
-	*(dest + i) = '\0';
+	dest[i] = '\0';
 
 	return (dest);
 }
