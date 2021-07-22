@@ -12,6 +12,9 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 /*2. prints strings followed by anew line*/
 void print_strings(const char *separator, const unsigned int n, ...);
 
+/*3. prints anything*/
+void print_all(const char * const format, ...);
+
 
 
 
