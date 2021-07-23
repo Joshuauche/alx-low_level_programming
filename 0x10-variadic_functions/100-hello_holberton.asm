@@ -1,25 +1,14 @@
- Hello, Holberton to the console using system calls. Runs on 64-bit Linux
-; To assemble and run:
-;
-;      nasm -f elf64 100-hello_holberton.asm && gcc 100-hello_holberton.o -o hello
-; -----------------------------------------------------------------------------------
 
-section .text
-global main
+section     .text
+    global      main
 
 main:
-	push	rbp
-	mov	rbp, rsp
-	sub	rsp, 32
-	mov	rax, 1
-	mov	rdi, 1
-	mov 	rsi, message
-	mov	rdx, 17
-	syscall
-	mov	rax, 60
-	xor	rdi, rdi
-	syscall
+    mov     edx,len
+    mov     ecx,msg
+    mov     ebx,1
+    mov     eax,4
+    int     0x80
 
-	section .data
-message: db	"Hello, Holberton", 10
-
+section     .data
+msg     db  'Hello, Holberton',0xa
+	len     equ $ - msg
