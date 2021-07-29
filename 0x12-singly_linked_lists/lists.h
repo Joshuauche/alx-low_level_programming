@@ -29,4 +29,8 @@ size_t print_list(const list_t *h);
 /* 1. prints the length of element*/
 size_t list_len(const list_t *h);
 
+/* 2. adds anew node a the begining of a lit*/
+list_t *add_node(list_t **head, const char *str);
+void print_lisy(list_t *node);
+
 #endif
