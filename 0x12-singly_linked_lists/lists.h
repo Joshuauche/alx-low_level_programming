@@ -26,6 +26,7 @@ typedef struct list_s
 /*function that prints sl the elements of a lists_t list*/
 size_t print_list(const list_t *h);
 
-
+/* 1. prints the length of element*/
+size_t list_len(const list_t *h);
 
 #endif
