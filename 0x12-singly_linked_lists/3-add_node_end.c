@@ -11,14 +11,15 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	/* 1. allocate list_t */
 	unsigned int len = 0;
+	list_t *new_node;
+	list_t *last;
 
 	while (*(str + len))
 		len++;
+	new_node = (list_t *) malloc(sizeof(list_t));
 
-	list_t *new_node = (list_t *) malloc(sizeof(list_t));
 
-
-	list_t *last = *head;  /* used in step 5*/
+	last = *head;  /* used in step 5*/
 
 	/* 2. put in the data  */
 	new_node->str  = strdup(str);
