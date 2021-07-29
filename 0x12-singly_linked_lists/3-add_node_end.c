@@ -18,6 +18,8 @@ list_t *add_node_end(list_t **head, const char *str)
 		len++;
 	new_node = (list_t *) malloc(sizeof(list_t));
 
+	if(!new_node)
+		return (NUL)L;
 
 	last = *head;  /* used in step 5*/
 
