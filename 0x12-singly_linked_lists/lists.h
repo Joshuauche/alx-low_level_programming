@@ -32,5 +32,7 @@ size_t list_len(const list_t *h);
 /* 2. adds anew node a the begining of a lit*/
 list_t *add_node(list_t **head, const char *str);
 
+/*3. adds a new node the end of the list*/
+list_t *add_node_end(list_t **head, const char *str);
 
 #endif
