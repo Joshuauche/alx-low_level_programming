@@ -35,4 +35,7 @@ list_t *add_node(list_t **head, const char *str);
 /*3. adds a new node the end of the list*/
 list_t *add_node_end(list_t **head, const char *str);
 
+/*4. free a list_t list*/
+void free_list(list_t *head);
+
 #endif
