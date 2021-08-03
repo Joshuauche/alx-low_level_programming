@@ -23,6 +23,8 @@ typedef struct listint_s
 /*0. prints all elements*/
 size_t print_listint(const listint_t *h);
 
+/*1. returns the number of elemet*/
+size_t listint_len(const listint_t *h);
 
 
 
