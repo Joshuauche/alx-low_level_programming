@@ -8,14 +8,14 @@
  */
 int pop_listint(listint_t **head)
 {
-	int retval = -1;
+	int retval;
 	listint_t *next_node;
 
 	next_node = NULL;
 
 	if (*head == NULL)
 	{
-		return (-1);
+		return (0);
 	}
 
 
