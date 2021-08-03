@@ -26,6 +26,9 @@ size_t print_listint(const listint_t *h);
 /*1. returns the number of elemet*/
 size_t listint_len(const listint_t *h);
 
+/*2. adds a node at the begining*/
+listint_t *add_nodeint(listint_t **head, const int n);
+
 
 
 
