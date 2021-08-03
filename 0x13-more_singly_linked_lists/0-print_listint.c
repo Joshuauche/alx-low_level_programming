@@ -9,7 +9,7 @@
 size_t print_listint(const listint_t *h)
 {
 	unsigned int count;
-	const listint *tmp;
+	const listint_t *tmp;
 
 	count = 0;
 	tmp = h;
