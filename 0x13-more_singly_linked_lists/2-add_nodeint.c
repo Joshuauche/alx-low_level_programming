@@ -4,6 +4,8 @@
  * add_nodeint - add a node at the begining
  * @head: head parameter
  * @n: n parameter
+ *
+ * Return: head pointer
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
@@ -14,7 +16,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	/*return null if it deosnt return address*/
 	if (!new_node)
 	{
-		return NULL;
+		return (NULL);
 	}
 	/*put data*/
 	new_node->n = n;
