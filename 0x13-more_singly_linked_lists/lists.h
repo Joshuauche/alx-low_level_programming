@@ -38,6 +38,9 @@ void free_listint(listint_t *head);
 /*5. frees the listint_t list and set the head to null*/
 void free_listint2(listint_t **head);
 
+/*6. deletes the head node*/
+int pop_listint(listint_t **head);
+
 
 
 
