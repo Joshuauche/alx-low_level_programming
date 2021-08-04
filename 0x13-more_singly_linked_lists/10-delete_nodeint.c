@@ -9,59 +9,38 @@
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
+	listint_t *temp = *head;
+	listint_t *current = NULL;
 	unsigned int i = 0;
-	unsigned int retval = -1;
-	listint_t *current, *temp_node;
 
-	current = *head;
-	temp_node = NULL;
+
+	if (*head == NULL)
+		return (-1);
+
 
 	if (index == 0)
 	{
-		return (pop_listint(head));
+		*head = (*head)->next;
+		free(temp);
+		return (1);
 	}
 
-	for (i = 0; i < index - 1; i++)
+
+	while (i < index - 1)
 	{
-		if (!current || current->next == NULL)
-		{
+		if (!temp || !(temp->next))
 			return (-1);
-		}
-		current = current->next;
+		temp = temp->next;
+		i++;
 	}
 
 
-	temp_node = current->next;
-	retval = temp_node->n;
-	current->next = temp_node->next;
-	free(temp_node);
+
+	current = temp->next;
+	temp->next = current->next;
+	free(current);
 
 
-	return (retval);
+	return (1);
 }
 
-/**
- * pop_listint - deletes the head node
- * @head: head parameter
- *
- * Return: integer
- */
-int pop_listint(listint_t **head)
-{
-	int retval;
-	listint_t *next_node;
-
-	next_node = NULL;
-
-	if (*head == NULL)
-	{
-		return (0);
-	}
-
-
-	next_node = (*head)->next;
-	retval = (*head)->n;
-	free(*head);
-	*head = next_node;
-	return (retval);
-}
