@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * binary_to_uint - tprints the binary representation of a number
- * @b: b parameter
+ * print_binary - tprints the binary representation of a number
+ * @n: n parameter
  *
  * Return: res
  */
@@ -16,7 +16,6 @@ void print_binary(unsigned long int n)
 	{
 		current = n >> i;
 
-	
 		if (current & 1)
 		{
 			_putchar('1');
