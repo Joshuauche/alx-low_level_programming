@@ -7,20 +7,25 @@
  *
  * Return: res
  */
-unsigned int binary_to_uint(const char *b)
+void print_binary(unsigned long int n)
 {
-	int n;
-	unsigned int res = 0;
+	int i, count = 0;
+	unsigned long int current;
 
-	if (!b)
-		return (0);
-
-	for (n = 0; *(b + n); n++)
+	for (i = 63; i >= 0; i--)
 	{
-		if (*(b + n) < '0' || *(b + n) > '1')
-			return (0);
-		res = 2 * res + (*(b + n) - '0');
+		current = n >> i;
+
+	
+		if (current & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
 	}
-	return (res);
+	if (!count)
+		_putchar('0');
 }
 
