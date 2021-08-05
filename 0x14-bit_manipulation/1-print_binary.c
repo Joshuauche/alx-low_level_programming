@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * binary_to_uint - prints the binary representation of a number
+ * binary_to_uint - tprints the binary representation of a number
  * @b: b parameter
  *
  * Return: res
