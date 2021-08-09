@@ -20,6 +20,6 @@ int create_file(const char *filename, char *text_content);
 /*2. appends text at the end of a file*/
 int append_text_to_file(const char *filename, char *text_content);
 
-
+int main(int argc, char *argv[]);
 
 #endif
