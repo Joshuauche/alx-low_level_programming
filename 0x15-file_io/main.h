@@ -11,7 +11,7 @@
 #include <string.h>
 #include <errno.h>
 
-/*0. function that reads a text file and prints it to the POSIX standard output.*/
+/*0. function that reads a text file and prints it to the POSIX.*/
 ssize_t read_textfile(const char *filename, size_t letters);
 
 
