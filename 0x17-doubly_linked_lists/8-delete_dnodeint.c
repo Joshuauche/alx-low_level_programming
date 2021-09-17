@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * dlistint_len - returns the number of nodes in a doubly linked list
  * @h: pointer to the list
