@@ -1,4 +1,4 @@
 #!/bin/bash
 gcc -c *.c -fpic
-nm -D --defined-only liball.so
 gcc *.o -shared -o liball.so
+export LD_LIBRARY_PATH=$PWD/liball.so:
