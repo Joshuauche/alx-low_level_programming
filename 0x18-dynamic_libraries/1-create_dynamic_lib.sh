@@ -1,3 +1,4 @@
 #!/bin/bash
 gcc -c *.c -fpic
-gcc *.o -shared -Wl -o liball.so
+nm -D --defined-only liball.so
+gcc *.o -shared -o liball.so
