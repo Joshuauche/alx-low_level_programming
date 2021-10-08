@@ -24,12 +24,10 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	hashtable->size = size;
 
-
-	for (i = 0; hashtable->array == NULL; i++)
+	if (!hashtable->array)
 	{
 		free(hashtable);
 		return (NULL);
 	}
-
 	return (hashtable);
 }
