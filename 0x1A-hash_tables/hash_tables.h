@@ -40,7 +40,9 @@ typedef struct hash_table_s
 /*0 - create hash table */
 hash_table_t *hash_table_create(unsigned long int size);
 
-/*2 - function implementing the djb2 algorithm.*/
+/*1 - function implementing the djb2 algorithm.*/
 unsigned long int hash_djb2(const unsigned char *str);
 
+/*2 - function that gives you the index of a key*/
+unsigned long int key_index(const unsigned char *key, unsigned long int size);
 #endif
