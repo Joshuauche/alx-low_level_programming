@@ -51,4 +51,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 
 /*4 - retrieves a value associated with a key.*/
 char *hash_table_get(const hash_table_t *ht, const char *key);
+
+/*5 - prints a hash table*/
+void hash_table_print(const hash_table_t *ht);
 #endif
