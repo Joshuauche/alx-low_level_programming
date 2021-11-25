@@ -4,4 +4,4 @@ SRC = main.c holberton.c
 all: school
 
 school: $(SRC) m.h
-        $(CC) $(SRC) -o school
+	$(CC) $(SRC) -o school
