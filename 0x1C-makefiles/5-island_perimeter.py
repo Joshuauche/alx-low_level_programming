@@ -3,6 +3,7 @@
 island perimeter
 """
 
+
 def island_perimeter(grid):
     """
     grid is a list of list of integers:
