@@ -19,7 +19,7 @@ int binary_search(int *array, size_t size, int value)
 	left = 0;
 	right = size - 1;
 
-	for (; left <= right; left++)
+	for (; left <= right;)
 	{
 		print_array(array, left, right);
 		mid = (left + right) / 2;
