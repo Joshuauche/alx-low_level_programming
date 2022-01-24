@@ -16,15 +16,5 @@ void print_array(int *array, int left, int right);
 
 
 
-<<<<<<< HEAD
-=======
 
-
-
-
-
-
-
-
->>>>>>> eddc1b8af5b5c776805f01314ef667ed5ca157a8
 #endif
